@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">COMP2000_Geocache</string>
+    <string name="geocaching">GeoCaching</string>
+    <string name="geocache_example">GeoCache Example</string>
+    <string name="home_slogan">Find Treasure while exploring nature</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up_title">Sign Up to use GeoCaching</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_placeholder">Email Address</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+</resources>
