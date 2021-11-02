@@ -20,13 +20,55 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:contentDescription="TODO"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/profile_picture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameDisplay"
-        app:srcCompat="@color/green"
+        app:srcCompat="@drawable/profilepic"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/mapAccountButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="125dp"
+        android:text="@string/map"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/accountStatisticsButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:text="@string/your_statistics"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapAccountButton"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/accountManageCaches"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/manage_cache"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,4 +11,8 @@
     <string name="username_placeholder">Username</string>
     <string name="password_placeholder">Password</string>
     <string name="log_in_title">Log in with your account</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="your_statistics">Your Statistics</string>
+    <string name="map">Map</string>
+    <string name="manage_cache">Manage Caches</string>
 </resources>
