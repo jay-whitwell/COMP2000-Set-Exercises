@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.comp2000_geocache" >
+    package="com.example.comp2000_geocache">
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.COMP2000_Geocache" >
+        android:theme="@style/Theme.COMP2000_Geocache">
+        <activity
+            android:name=".AccountActivity"
+            android:label="Account"
+            android:exported="true" />
         <activity
             android:name=".SignupActivity"
-            android:exported="true" />
+            android:label="Sign Up"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:label="Log In"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:label="COMP2000 GeoCaching"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

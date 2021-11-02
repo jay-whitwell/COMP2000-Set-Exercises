@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/homeLoginButton"
         android:layout_width="350dp"
         android:layout_height="65dp"
         android:layout_marginBottom="8dp"

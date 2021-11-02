@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Get the button ID
         Button signUpButton = findViewById(R.id.signupButton);
+        Button logInButton = findViewById(R.id.homeLoginButton);
 
         // Create the onClick to change activity
         signUpButton.setOnClickListener(new View.OnClickListener() {
@@ -25,14 +26,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        logInButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                login();
+            }
+        });
     }
-
-
 
     public void login()
     {
         // Create the intent to open the log in page
+        Intent intent = new Intent(this, LoginActivity.class);
+
+        startActivity(intent);
     }
 
     public void signup()

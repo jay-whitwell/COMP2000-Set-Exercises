@@ -8,7 +8,7 @@
     tools:context=".SignupActivity">
 
   <Button
-      android:id="@+id/createAccount"
+      android:id="@+id/createAccountButton"
       android:layout_width="350dp"
       android:layout_height="65dp"
       android:layout_marginBottom="36dp"
@@ -42,8 +42,7 @@
       android:minHeight="48dp"
       app:layout_constraintBottom_toTopOf="@+id/usernameEditText"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      android:autofillHints="" />
+      app:layout_constraintStart_toStartOf="parent"/>
 
   <EditText
       android:id="@+id/usernameEditText"
@@ -56,8 +55,7 @@
       app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.504"
-      app:layout_constraintStart_toStartOf="parent"
-      android:autofillHints="" />
+      app:layout_constraintStart_toStartOf="parent"/>
 
   <EditText
       android:id="@+id/passwordEditText"
@@ -70,7 +68,6 @@
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.504"
-      app:layout_constraintStart_toStartOf="parent"
-      android:autofillHints="" />
+      app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
