@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_account.xml" value="0.5" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_account.xml" value="0.33" />
         <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_manage_cache.xml" value="0.33" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_map.xml" value="0.35643115942028986" />
         <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_signup.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_statistics.xml" value="0.33" />
+        <entry key="..\:/Users/Jay/AndroidStudioProjects/COMP2000_Geocache/app/src/main/res/layout/activity_view_item.xml" value="0.33" />
       </map>
     </option>
   </component>

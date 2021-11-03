@@ -10,23 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000_Geocache">
         <activity
+            android:name=".ViewItemActivity"
+            android:exported="true"
+            android:label="View Item"
+            android:parentActivityName=".MapActivity"/>
+        <activity
+            android:name=".ManageCacheActivity"
+            android:exported="true"
+            android:label="Manage Caches"
+            android:parentActivityName=".AccountActivity" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="true"
+            android:label="Statistics"
+            android:parentActivityName=".AccountActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true"
+            android:label="Map"
+            android:parentActivityName=".AccountActivity" />
+        <activity
             android:name=".AccountActivity"
-            android:label="Account"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Account" />
         <activity
             android:name=".SignupActivity"
-            android:label="Sign Up"
             android:exported="true"
+            android:label="Sign Up"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="Log In"
             android:exported="true"
+            android:label="Log In"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="COMP2000 GeoCaching"
-            android:exported="true">
+            android:exported="true"
+            android:label="COMP2000 GeoCaching">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

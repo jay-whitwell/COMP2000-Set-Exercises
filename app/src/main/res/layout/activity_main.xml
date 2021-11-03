@@ -55,7 +55,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/darkgreen"
         android:text="@string/log_in"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/signupButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
@@ -68,7 +68,7 @@
         android:layout_marginBottom="36dp"
         android:backgroundTint="@color/darkgreen"
         android:text="@string/sign_up"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
