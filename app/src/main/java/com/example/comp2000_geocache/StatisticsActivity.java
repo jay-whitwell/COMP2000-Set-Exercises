@@ -27,6 +27,31 @@ public class StatisticsActivity extends AppCompatActivity {
             }
         });
 
+        cachesFoundButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cachesFound();
+            }
+        });
+
+        cachesCreatedButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cachesCreated();
+            }
+        });
+    }
+
+    public void cachesFound()
+    {
+        Intent intent = new Intent(this, CachesFoundActivity.class);
+        startActivity(intent);
+    }
+
+    public void cachesCreated()
+    {
+        Intent intent = new Intent(this, YourCachesActivity.class);
+        startActivity(intent);
     }
 
     public void manageCaches()

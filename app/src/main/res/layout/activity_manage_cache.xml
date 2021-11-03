@@ -7,19 +7,19 @@
     tools:context=".ManageCacheActivity">
 
     <Button
-        android:id="@+id/accountManageCaches3"
+        android:id="@+id/manageCreateCacheButton"
         android:layout_width="350dp"
         android:layout_height="65dp"
         android:layout_marginBottom="15dp"
         android:text="@string/create_cache"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/accountManageCaches2"
+        app:layout_constraintBottom_toTopOf="@+id/manageViewCachesButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/accountManageCaches2"
+        android:id="@+id/manageViewCachesButton"
         android:layout_width="350dp"
         android:layout_height="65dp"
         android:layout_marginBottom="30dp"

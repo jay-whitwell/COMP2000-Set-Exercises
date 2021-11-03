@@ -11,16 +11,23 @@
         android:theme="@style/Theme.COMP2000_Geocache">
         <activity
             android:name=".ManagingYourCacheActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Manage Your Caches"
+            android:parentActivityName=".AccountActivity" />
         <activity
             android:name=".CachesFoundDetailActivity"
+            android:label="Cache Details"
             android:exported="true" />
         <activity
             android:name=".YourCachesActivity"
-            android:exported="true" />
+            android:label="Your Caches"
+            android:exported="true"
+            android:parentActivityName=".ManageCacheActivity"/>
         <activity
             android:name=".CachesFoundActivity"
-            android:exported="true" />
+            android:label="Caches Found"
+            android:exported="true"
+            android:parentActivityName=".StatisticsActivity" />
         <activity
             android:name=".ViewItemActivity"
             android:exported="true"
