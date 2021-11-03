@@ -14,7 +14,6 @@ public class StatisticsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statistics);
 
-
         Button manageCacheButton = findViewById(R.id.statisticsManageCaches);
         Button cachesFoundButton = findViewById(R.id.statisticsCachesFound);
         Button cachesCreatedButton = findViewById(R.id.statisticsCachesCreated);

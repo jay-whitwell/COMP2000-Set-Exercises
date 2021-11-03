@@ -36,7 +36,14 @@
     <string name="default_username">Username</string>
     <string name="navigate">Navigate To</string>
     <string name="last_found">Last Found:</string>
-    <string name="date">MM/HH/DD/MM/YY</string>
+    <string name="date">DD/MM/YY</string>
+    <string name="cache1">Cache 1</string>
+    <string name="cache2">Cache 2</string>
+    <string name="cache3">Cache 3</string>
+    <string name="cache4">Cache 4</string>
+    <string name="in_play">In Play</string>
+    <string name="maintenance">Maintenance Required</string>
+    <string name="damaged">Damaged</string>
 
     <string name="placeholder_paragraph">This is a placeholder description
     This is a placeholder description

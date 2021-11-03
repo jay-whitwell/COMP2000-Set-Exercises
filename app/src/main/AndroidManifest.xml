@@ -10,23 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000_Geocache">
         <activity
+            android:name=".YourCacheDetailsActivity"
+            android:label="Your Cache Details"
+            android:parentActivityName=".YourCachesActivity"
+            android:exported="true" />
+        <activity
             android:name=".ManagingYourCacheActivity"
             android:exported="true"
             android:label="Manage Your Caches"
             android:parentActivityName=".AccountActivity" />
         <activity
             android:name=".CachesFoundDetailActivity"
-            android:label="Cache Details"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Cache Details" />
         <activity
             android:name=".YourCachesActivity"
-            android:label="Your Caches"
             android:exported="true"
-            android:parentActivityName=".ManageCacheActivity"/>
+            android:label="Your Caches"
+            android:parentActivityName=".ManageCacheActivity" />
         <activity
             android:name=".CachesFoundActivity"
-            android:label="Caches Found"
             android:exported="true"
+            android:label="Caches Found"
             android:parentActivityName=".StatisticsActivity" />
         <activity
             android:name=".ViewItemActivity"

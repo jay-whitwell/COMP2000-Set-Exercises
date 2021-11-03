@@ -6,4 +6,120 @@
     android:layout_height="match_parent"
     tools:context=".YourCachesActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:context=".YourCachesActivity">
+
+        <Button
+            android:id="@+id/cacheButton4"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="@string/cache4"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cacheButton3"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/cacheButton1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="125dp"
+            android:text="@string/cache1"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/cacheButton2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="@string/cache2"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cacheButton1"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/cacheButton3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="@string/cache3"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cacheButton2"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/cacheDetail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/in_play"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cacheButton1" />
+
+        <TextView
+            android:id="@+id/cacheDetail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/in_play"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cacheButton2" />
+
+        <TextView
+            android:id="@+id/cacheDetail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/maintenance"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cacheButton3" />
+
+        <TextView
+            android:id="@+id/cacheDetail4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/damaged"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cacheButton4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
