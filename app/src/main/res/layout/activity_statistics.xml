@@ -203,7 +203,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/statisticsViewFound"
+        android:id="@+id/statisticsCachesFound"
         android:layout_width="51dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
