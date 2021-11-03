@@ -42,8 +42,12 @@
     <string name="cache3">Cache 3</string>
     <string name="cache4">Cache 4</string>
     <string name="in_play">In Play</string>
+    <string name="times_found">Times Found</string>
+    <string name="finds_until_maintenance">Finds until maintenance</string>
     <string name="maintenance">Maintenance Required</string>
     <string name="damaged">Damaged</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
     <string name="placeholder_paragraph">This is a placeholder description
     This is a placeholder description
@@ -55,4 +59,6 @@
     This is a placeholder description
     This is a placeholder description
     </string>
+    <string name="_15">15</string>
+    <string name="_5">5</string>
 </resources>

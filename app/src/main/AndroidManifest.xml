@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COMP2000_Geocache">
         <activity
-            android:name=".YourCacheDetailsActivity"
-            android:label="Your Cache Details"
+            android:name=".CacheInPlayActivity"
+            android:label="Cache Details"
             android:parentActivityName=".YourCachesActivity"
             android:exported="true" />
         <activity

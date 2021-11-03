@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class YourCachesActivity extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE = "com.example.comp2000_geocache.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,35 +24,58 @@ public class YourCachesActivity extends AppCompatActivity {
         cacheButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                details();
+                inPlay();
             }
         });
 
         cacheButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                details();
+                inPlay();
             }
         });
 
         cacheButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                details();
+                maintenace();
             }
         });
 
         cacheButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                details();
+                damaged();
             }
         });
     }
 
-    public void details()
+    public void inPlay()
     {
-        Intent intent = new Intent(this, YourCacheDetailsActivity.class);
+        Intent intent = new Intent(this, CacheInPlayActivity.class);
+
+        // Create the example list so we don't need to create 4 different pages
+        String[] cacheDetails = new String[] { "Yes", "15", "5", "No"};
+
+        intent.putExtra(EXTRA_MESSAGE, cacheDetails);
+        startActivity(intent);
+    }
+
+    public void damaged()
+    {
+        Intent intent = new Intent(this, CacheInPlayActivity.class);
+        String[] cacheDetails = new String[] { "No", "13", "7", "Yes" };
+
+        intent.putExtra(EXTRA_MESSAGE, cacheDetails);
+        startActivity(intent);
+    }
+
+    public void maintenace()
+    {
+        Intent intent = new Intent(this, CacheInPlayActivity.class);
+        String[] cacheDetails = new String[] { "No", "20", "0", "No" };
+
+        intent.putExtra(EXTRA_MESSAGE, cacheDetails);
         startActivity(intent);
     }
 
