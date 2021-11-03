@@ -61,4 +61,6 @@
     </string>
     <string name="_15">15</string>
     <string name="_5">5</string>
+    <string name="date_found">Date Found</string>
+    <string name="viewed_hint">Viewed Hint</string>
 </resources>

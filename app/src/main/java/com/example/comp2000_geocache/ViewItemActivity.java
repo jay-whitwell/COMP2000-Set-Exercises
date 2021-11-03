@@ -16,6 +16,9 @@ public class ViewItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_item);
 
+        // Create the hint Toast
+
+
         Button navigateToButton = findViewById(R.id.viewNavigateTo);
 
         navigateToButton.setOnClickListener(new View.OnClickListener() {
