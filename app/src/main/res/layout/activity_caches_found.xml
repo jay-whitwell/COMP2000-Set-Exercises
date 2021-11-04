@@ -13,10 +13,10 @@
         android:layout_marginTop="40dp"
         android:background="@color/grey"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/cacheFoundTitle" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/cacheFoundTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/cacheDateFoundDDMMYY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view11" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/cacheDateFound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view11" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/cacheViewedHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -61,10 +61,10 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintTop_toBottomOf="@+id/cacheDateFound" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/cacheViewedHintBool"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -73,5 +73,5 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/cacheDateFoundDDMMYY" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,31 +22,24 @@ public class CachesFoundListActivity extends AppCompatActivity {
         cacheFound1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cacheDetail();
+                cacheDetail("Cache 1");
             }
         });
 
         cacheFound2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cacheDetail2();
+                cacheDetail("Cache 2");
             }
         });
 
 
     }
 
-    public void cacheDetail()
+    public void cacheDetail(String name)
     {
         Intent intent = new Intent(this, CachesFoundActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, "Cache 1");
-        startActivity(intent);
-    }
-
-    public void cacheDetail2()
-    {
-        Intent intent = new Intent(this, CachesFoundActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, "Cache 2");
+        intent.putExtra(EXTRA_MESSAGE, name);
         startActivity(intent);
     }
 
