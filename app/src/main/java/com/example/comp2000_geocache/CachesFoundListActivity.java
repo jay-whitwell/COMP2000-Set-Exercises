@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CachesFoundDetailActivity extends AppCompatActivity {
+public class CachesFoundListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_caches_found_detail);
+        setContentView(R.layout.activity_caches_found_list);
+
+
     }
 }

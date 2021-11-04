@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.Map;
 
@@ -17,14 +18,25 @@ public class ViewItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_view_item);
 
         // Create the hint Toast
-
+        Toast toast = Toast.makeText(getApplicationContext(), "Hint Example", Toast.LENGTH_LONG);
 
         Button navigateToButton = findViewById(R.id.viewNavigateTo);
+        Button hintButton = findViewById(R.id.viewShowHint);
 
         navigateToButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 navigateTo();
+            }
+        });
+
+        hintButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // toast.cancel() before .show() stops the hint bugging out and lingering too
+                // long on the screen
+                toast.cancel();
+                toast.show();
             }
         });
     }
