@@ -20,11 +20,6 @@
             android:label="Cache Details"
             android:parentActivityName=".YourCachesActivity" />
         <activity
-            android:name=".ManagingYourCacheActivity"
-            android:exported="true"
-            android:label="Manage Your Caches"
-            android:parentActivityName=".AccountActivity" />
-        <activity
             android:name=".YourCachesActivity"
             android:exported="true"
             android:label="Your Caches"
