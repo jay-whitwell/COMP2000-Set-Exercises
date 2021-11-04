@@ -43,7 +43,7 @@ public class StatisticsActivity extends AppCompatActivity {
 
     public void cachesFound()
     {
-        Intent intent = new Intent(this, CachesFoundActivity.class);
+        Intent intent = new Intent(this, CachesFoundListActivity.class);
         startActivity(intent);
     }
 

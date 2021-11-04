@@ -24,56 +24,55 @@ public class YourCachesActivity extends AppCompatActivity {
         cacheButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                inPlay();
+                inPlay("Cache 1");
             }
         });
 
         cacheButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                inPlay();
+                inPlay("Cache 2");
             }
         });
 
         cacheButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                maintenace();
+                maintenace("Cache 3");
             }
         });
 
         cacheButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                damaged();
+                damaged("Cache 4");
             }
         });
     }
 
-    public void inPlay()
+    public void inPlay(String name)
     {
         Intent intent = new Intent(this, CacheInPlayActivity.class);
 
         // Create the example list so we don't need to create 4 different pages
-        String[] cacheDetails = new String[] { "Yes", "15", "5", "No"};
+        String[] cacheDetails = new String[] { name, "Yes", "15", "5", "No"};
 
         intent.putExtra(EXTRA_MESSAGE, cacheDetails);
         startActivity(intent);
     }
 
-    public void damaged()
+    public void damaged(String name)
     {
         Intent intent = new Intent(this, CacheInPlayActivity.class);
-        String[] cacheDetails = new String[] { "No", "13", "7", "Yes" };
-
+        String[] cacheDetails = new String[] { name, "No", "13", "7", "Yes" };
         intent.putExtra(EXTRA_MESSAGE, cacheDetails);
         startActivity(intent);
     }
 
-    public void maintenace()
+    public void maintenace(String name)
     {
         Intent intent = new Intent(this, CacheInPlayActivity.class);
-        String[] cacheDetails = new String[] { "No", "20", "0", "No" };
+        String[] cacheDetails = new String[] { name, "No", "20", "0", "No" };
 
         intent.putExtra(EXTRA_MESSAGE, cacheDetails);
         startActivity(intent);

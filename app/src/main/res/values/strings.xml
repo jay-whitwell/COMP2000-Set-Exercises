@@ -63,4 +63,5 @@
     <string name="_5">5</string>
     <string name="date_found">Date Found</string>
     <string name="viewed_hint">Viewed Hint</string>
+    <string name="caches_that_you_ve_found">Caches That You\'ve Found</string>
 </resources>

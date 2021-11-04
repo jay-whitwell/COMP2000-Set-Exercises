@@ -18,15 +18,18 @@ public class CacheInPlayActivity extends AppCompatActivity {
         String[] cacheDetails = intent.getStringArrayExtra(YourCachesActivity.EXTRA_MESSAGE);
 
         // Get the TextViews to change the details
+        TextView title = findViewById(R.id.inPlayTitle);
         TextView inPlay = findViewById(R.id.isInPlay);
         TextView timesFound = findViewById(R.id.timesFound);
         TextView untilMaintenance = findViewById(R.id.untilMaintenance);
         TextView isDamaged = findViewById(R.id.isDamaged);
 
-        inPlay.setText(cacheDetails[0]);
-        timesFound.setText(cacheDetails[1]);
-        untilMaintenance.setText(cacheDetails[2]);
-        isDamaged.setText(cacheDetails[3]);
+        title.setText(cacheDetails[0]);
+        inPlay.setText(cacheDetails[1]);
+        timesFound.setText(cacheDetails[2]);
+        untilMaintenance.setText(cacheDetails[3]);
+        isDamaged.setText(cacheDetails[4]);
+
 
     }
 }
