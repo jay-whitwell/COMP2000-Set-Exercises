@@ -31,37 +31,40 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/createDescription"
         android:layout_width="247dp"
         android:layout_height="48dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/description"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/manageDescription"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/createName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/createLocation"
         android:layout_width="247dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/location"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/manageLocation"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+        app:layout_constraintTop_toBottomOf="@+id/createDescription" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/createHint"
         android:layout_width="247dp"
         android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="@string/set_hint"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/manageHint"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+        app:layout_constraintTop_toBottomOf="@+id/createLocation" />
 
     <TextView
         android:id="@+id/manageCacheTitle"
@@ -70,7 +73,7 @@
         android:layout_marginTop="25dp"
         android:text="@string/create_cache"
         android:textColor="#000000"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -124,12 +127,13 @@
         app:layout_constraintTop_toBottomOf="@+id/manageLocation" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/createName"
         android:layout_width="247dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="96dp"
         android:ems="10"
+        android:hint="@string/name"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/manageName"
         app:layout_constraintTop_toBottomOf="@+id/manageCacheTitle" />

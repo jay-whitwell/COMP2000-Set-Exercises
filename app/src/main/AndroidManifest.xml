@@ -53,6 +53,7 @@
             android:name=".MapActivity"
             android:exported="true"
             android:label="Map"
+            android:alwaysRetainTaskState="true"
             android:parentActivityName=".AccountActivity" />
         <activity
             android:name=".AccountActivity"
