@@ -22,9 +22,6 @@ public class ManageCacheActivity extends AppCompatActivity {
         createCacheButton.setOnClickListener(view -> createCache());
 
         viewCachesButton.setOnClickListener(view -> viewCaches());
-
-
-
     }
 
     public void createCache()

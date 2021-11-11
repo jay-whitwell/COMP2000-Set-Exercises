@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
+    public static final String EXTRA_MESSAGE = "com.example.comp2000_geocache.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,9 @@ public class LoginActivity extends AppCompatActivity {
         // Show the errors if username/password is empty
         if (TextUtils.isEmpty(username)) { usernameInput.setError("Please enter a username"); }
         else if (TextUtils.isEmpty(password)) { passwordInput.setError("Please enter a password"); }
-        else { startActivity(intent); }
+        else {
+            intent.putExtra(EXTRA_MESSAGE, username);
+            startActivity(intent);
+        }
     }
 }
